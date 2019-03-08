@@ -1,6 +1,6 @@
 const OFF = 0, WARN = 1, ERROR = 2;
 module.exports = {
-  "extends": ["airbnb"],
+  "extends": ["airbnb", "prettier", "prettier/react"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 9,
